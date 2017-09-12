@@ -7,19 +7,32 @@
 <body>
 <ol>
     <li>Pizza</li>
-    <ol><li>Pommes</li><li>Skinka</li></ol>
+    <ol>
+        <li>Pommes</li>
+        <li>Skinka</li>
+    </ol>
     <li>Kebab</li>
-    <ol><li>i bröd</li></ol>
+    <ol>
+        <li>i bröd</li>
+    </ol>
     <li>Pasta</li>
-    <ol><li>Kyckling</li></ol>
+    <ol>
+        <li>Kyckling</li>
+    </ol>
 </ol>
 <ul>
     <li>Rock</li>
-    <ul><li>Queen</li></ul>
+    <ul>
+        <li>Queen</li>
+    </ul>
     <li>Metal</li>
-    <ul><li>In Flames</li></ul>
+    <ul>
+        <li>In Flames</li>
+    </ul>
     <li>Rap</li>
-    <ul><li>Biggie</li></ul>
+    <ul>
+        <li>Biggie</li>
+    </ul>
 </ul>
 <dl>
     <dt>Batman</dt>
@@ -43,10 +56,10 @@
 </table>
 <form>
     <label>First Name</label>
-    <input type="text" name="firstName">
+    <input type="text" name="firstName" required>
     <br>
     <label>Last Name</label>
-    <input type="text" name="lastName">
+    <input type="text" name="lastName" required>
     <br>
     <label>Adress</label>
     <input type="text" name="adress">
@@ -57,11 +70,20 @@
     <label>City</label>
     <input type="text" name="city">
     <br>
-   <label>Phone number</label>
-    <input type="text" name="phoneNumber">
+    <label>Phone number</label>
+    <input type="text" name="phoneNumber" maxlength="50" required>
     <br>
-   <label>Email Adress</label>
+    <label>Email Adress</label>
     <input type="text" name="emailAdress">
+    <br>
+    <label>Yes</label>
+    <input type="radio" name="selection">
+    <label>No</label>
+    <input type="radio" name="selection">
+    <label>Mabye</label>
+    <input type="radio" name="selection">
+    <br>
+    <strong><p>&lt;div&gt;&lt;/div&gt;</p></strong>
 </form>
 </body>
 </html>
